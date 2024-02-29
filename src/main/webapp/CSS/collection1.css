@@ -1,0 +1,93 @@
+
+.collection-Imagecontent{
+    width: 250px;
+    height: 250px;
+    margin-left: -130px;
+    margin-top: -20px;
+    user-select: none;
+}
+
+.collection-Choicediv{
+    flex-direction: row;
+    gap: 150px;
+    width: auto;
+    padding-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 250px;
+    white-space: nowrap;
+    padding-left: 150px;
+    padding-right: 100px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    cursor: pointer;
+}
+
+.collection-Choicediv:hover {
+    overflow-x: auto;
+}
+.content-blockCollection{
+    color: #ffffff;
+    gap: 10px;
+}
+
+.productText{
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.shoecontainer{
+    border-style: groove;
+    padding: 20px;
+    height: 180px;
+    max-width: 400px;
+    background-color: #303030;
+    border-radius: 25px;
+    box-shadow:  0 1px 30px -10px #ffffff;
+}
+
+#Product-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#Product-name {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Product-price {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff99;
+}
+
+#Product-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff80;
+    display: flex;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+}
+
+.addcart-btn{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #303030;
+    color: #ffffff;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}

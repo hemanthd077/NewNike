@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.AppIconMain{
+    width: 130px;
+    height: 100px;
+    left: 50px;
+    top:10px ;
+    position: absolute;
+}
+
+.OuterBlock{
+    background-image: radial-gradient(#1c1c1c, #242424,#1c1c1c, #1c1c1c);
+    /*background-color: #1c1c1c;*/
+    width:  100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.loginDiv{
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;;
+    gap: 15px;
+    transform: scale(1.1);
+}
+
+#submitBtn:hover{
+    background-color: #ffffff;
+    color: #ffb400;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.formloginCont{
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 450px;
+    height: 50px;
+}
+
+.signupmaindiv{
+    gap: 200px;
+}
+
+.signupimage{
+    width: 500px;
+}
+
+.inputBox:focus{
+    outline: none;
+}
+
+#submitBtn{
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color: #ffb400;
+    width: 150px;
+}
+
+.navText{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
